@@ -29,11 +29,26 @@ if (age <= 18){
 console.log (hero + " is our lovable hero, who " + xp + " with his trusty " + weapon + "!")
 
 // 1 Fish 2 Fish
-var count = 2;
-var animal = "puppy";
+var count;
+var animal = "doggo";
+function animalHouse(animal) {
+	if (count > 2) {
+		console.log ("We have too many " + animal + "s")
+	}else{
+		console.log ("Welcome to the club")
+	}
+}
+count(4);
 
-if (count > 2) {
-	console.log ("we have too many " + animal + "ies" - "s")
-}else{
-	console.log ("Welcome to the club")
+//Assemble the Avengers
+var hero = "Spiderman";
+
+function avengersAssemble(hero) {
+	if (avenger == hero) {
+		console.log ("Avengers Assemble!" + avengersAssemble)
+	}if (avenger == "ironman") {
+		console.log ("")
+	}else{
+		console.log ("Sorry, you are not needed for this mission")
+	}
 }
